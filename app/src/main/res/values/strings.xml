@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Popular News</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="todo">TODO</string>
+    <string name="error_title">Error Title</string>
+    <string name="retry">Retry</string>
+    <string name="error_message">Error Message</string>
+    <string name="top_headlines">Top Headlines</string>
+    <string name="todo_1">TODO</string>
+    <string name="category">Category</string>
+    <string name="API_KEY">3bb9828b5db1460685af7c9bf76bd266</string>
+</resources>

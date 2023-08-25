@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <HorizontalScrollView
+                    android:id="@+id/HscrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="20dp"
+                    android:scrollbars="horizontal">
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn1"
+                            android:contentDescription="@string/todo_1"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="10dp"
+                            android:text="Business"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn2"
+                            android:text="Entertainment"
+                            android:padding="8dp"
+                            android:contentDescription="@string/todo_1"
+                            android:layout_margin="10dp"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:text="General"
+                            android:id="@+id/btn3"
+                            android:contentDescription="@string/todo_1"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:id="@+id/btn4"
+                            android:text="Health"
+                            android:contentDescription="@string/todo_1"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn5"
+                            android:text="Science"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/todo_1"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn6"
+                            android:text="Sports"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/todo_1"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/btn7"
+                            android:text="Technology"
+                            android:padding="8dp"
+                            android:layout_margin="10dp"
+                            android:contentDescription="@string/todo_1"
+                            android:background="@color/yellow"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="center"
+                            android:textColor="#090909"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/VrecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+
+            </LinearLayout>

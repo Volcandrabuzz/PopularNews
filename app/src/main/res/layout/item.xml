@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview"
+        android:layout_margin="8dp"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardCornerRadius="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="6dp"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:textSize="22sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:maxLines="3"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:id="@+id/textSource"
+                    android:textSize="18sp"
+                    android:layout_marginTop="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:maxLines="3"
+                    android:textColor="#6C2678"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/news"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:id="@+id/img_headline"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
